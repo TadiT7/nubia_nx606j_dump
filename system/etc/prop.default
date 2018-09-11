@@ -1,0 +1,16 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Wed Aug 29 19:56:47 CST 2018
+ro.bootimage.build.date.utc=1535543807
+ro.bootimage.build.fingerprint=nubia/NX606J/NX606J:8.1.0/OPM1.171019.026/nubia08291956:user/release-keys
+persist.sys.usb.config=none
+

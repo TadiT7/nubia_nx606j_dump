@@ -1,0 +1,33 @@
+#NUBIA ADD FOR wireless diagnosis
+
+service ping_WideNet /vendor/bin/diagnosis_ping -i 5 -s 32 W
+    class main
+    user root
+    oneshot
+    disabled
+
+service ping_LocalNet /vendor/bin/diagnosis_ping -i 2 -s 32 L
+    class main
+    user root
+    oneshot
+    disabled
+
+service diagnosis_monitor /vendor/bin/diagnosis_monitor
+    class main
+    user root
+    oneshot
+    disabled
+	
+on property:sys.nubia.wireless.diagnosis=started && property:persist.sys.nblog.enable=on
+	start diagnosis_monitor
+	
+on property:sys.nubia.wireless.diagnosis=stopped
+	stop diagnosis_monitor
+	stop ping_LocalNet
+	stop ping_WideNet
+
+on property:persist.sys.nblog.enable=off
+	stop diagnosis_monitor
+	stop ping_LocalNet
+	stop ping_WideNet
+#Nubia add end

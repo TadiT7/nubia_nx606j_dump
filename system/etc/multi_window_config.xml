@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<multiwindow-setting>
+
+<!-- all apps in the "normal-mode" is white-list. -->
+<name-list name="normal-mode" type="white-list">
+    <item value="com.android.calculator2"/>
+    <item value="com.android.gallery3d"/>
+    <exception value="com.android.gallery3d/com.android.camera.CameraLauncher"/>
+</name-list>
+
+<!-- all apps in the "keep-size" is white-list. -->
+<name-list name="keep-size" type="white-list">
+    <item value="cn.nubia.control"/>
+    <item value="cn.nubia.fmradio.preset"/>
+    <item value="cn.nubia.bleobj"/>
+    <item value="cn.nubia.calculator2.preset"/>
+    <item value="cn.nubia.deskclock.preset"/>
+    <item value="cn.nubia.calendar.preset"/>
+    <item value="cn.nubia.soundrecorder.preset"/>
+    <item value="cn.nubia.powermanage"/>
+    <item value="cn.nubia.music.preset"/>
+    <item value="cn.nubia.wfd"/>
+    <item value="com.android.contacts"/>
+    <item value="cn.nubia.contacts" />
+    <item value="cn.nubia.databackup"/>
+    <item value="cn.nubia.neoshare/.PermissionConfirmActivity"/>
+    <item value="cn.nubia.neoshare/.login.AppStartActivity"/>
+    <item value="cn.nubia.neostore/.ui.start.GuidePageActivity"/>
+    <item value="cn.nubia.nubiashop/.welcome.WelcomeActivity"/>
+    <item value="cn.nubia.systemupdate"/>
+    <item value="cn.nubia.deskclock.preset"/>
+    <item value="cn.nubia.processmanager"/>
+    <item value="cn.nubia.myfile"/>
+    <item value="com.yulore.framework"/>
+    <item value="com.halfbrick.fruitninja"/>
+    <item value="com.kugou.android"/>
+    <item value="com.android.server.telecom/.components.UserCallActivity"/>
+    <item value="cn.nubia.thememanager"/>
+    <item value="cn.nubia.notepad.preset"/>
+    <item value="com.tencent.tmgp.xymobile"/>
+    <item value="cn.jj"/>
+    <item value="com.qqgame.mic"/>
+    <item value="com.tencent.tmgp.cf"/>
+    <item value="cn.nubia.sensor"/>
+    <item value="cn.nubia.email"/>
+    <item value="com.qqgame.hlddz"/>
+</name-list>
+
+<!-- all apps in the "full-screen" is white-list. -->
+<name-list name="full-screen" type="white-list">
+    <item value="cn.nubia.setupwizard"/>
+    <item value="cn.nubia.security2"/>
+    <item value="cn.nubia.powersaving"/>
+    <item value="cn.nubia.harassintercept"/>
+    <item value="cn.nubia.antivirus"/>
+    <item value="cn.nubia.applockmanager"/>
+    <item value="cn.nubia.control"/>
+    <item value="cn.nubia.systemupdate"/>
+    <item value="cn.nubia.weather"/>
+    <item value="com.android.camera/.pano.PanoramaActivity"/>
+    <item value="cn.nubia.freesnapshots"/>
+    <item value="com.kookong.app.nubia"/>
+    <item value="cn.nubia.gallery3d"/>
+    <item value="cn.nubia.photoeditor"/>
+    <item value="cn.nubia.video"/>
+    <item value="cn.nubia.usercenter"/>
+    <item value="com.android.emergency"/>
+    <item value="cn.nubia.cloud"/>
+    <item value="android/com.android.internal.app.PlatLogoActivity"/>
+    <item value="cn.nubia.splitscreen.home/.SplitScreenWelcome"/>
+    <item value="cn.nubia.neoshare"/>
+    <item value="cn.nubia.splitscreen.home/.SplitScreenWelcome"/>
+    <item value="cn.nubia.deskclock.preset/cn.nubia.deskclock.activity.SleepClockActivity"/>
+    <item value="com.android.settings"/>
+    <item value="cn.nubia.contacts/.group.GroupBrowseListActivity"/>
+    <item value="cn.nubia.contacts/.group.GroupDetailActivity"/>
+    <item value="cn.nubia.edge"/>
+    <item value="cn.nubia.voiceassistants"/>
+    <item value="cn.nubia.accounts"/>
+    <item value="cn.nubia.fingerprints/.TutorialActivity"/>
+    <item value="cn.nubia.fingerprints/.PrintsActivity"/>
+    <item value="com.nubia.settings.turboshow.TurboManagementActivity"/>
+    <item value="com.yibasan.lizhifm/.activities.LockScreenActivity"/>
+    <item value="com.tencent.radio/.playback.ui.PlayerActivity"/>
+    <item value="InternetRadio.all/.SingleLockScreenActivity"/>
+    <item value="com.android.packageinstaller"/>
+    <item value="com.google.android.packageinstaller"/>
+    <item value="com.android.camera"/>
+    <item value="com.powermo.geekshow/.MainActivity"/>
+    <item value="cn.nubia.factory"/>
+    <item value="cn.nubia.scanner"/>
+    <item value="cn.nubia.apps"/>
+    <item value="cn.nubia.advanced"/>
+    <item value="cn.nubia.phonemanualintegrate.preset"/>
+    <item value="com.android.incallui/.InCallActivity"/>
+    <item value="com.android.systemui"/>
+    <item value="cn.nubia.HouseLauncher.Local"/>
+    <item value="com.android.phone/.EmergencyDialer"/>
+    <item value="cn.nubia.deskclock.preset/cn.nubia.deskclock.SleepClockActivity"/>
+    <item value="cn.nubia.v5light.preset"/>
+    <item value="com.android.camera/com.android.gallery3d.app.Gallery"/>
+    <item value="cn.nubia.zbiglauncher.preset"/>
+    <item value="cn.nubia.supersnap/.edit.ScreenshotMainActivity"/>
+    <item value="cn.nubia.supersnap/.SuperSnapRecorderActivity"/>
+    <item value="cn.nubia.supersnap/com.nubia.video.player.PlayerActivity"/>
+    <item value="cn.nubia.browser/com.android.browser.qrcode.CaptureActivity"/>
+    <item value="cn.nubia.deskclock.preset/cn.nubia.deskclock.countdown.CountdownAlert"/>
+    <item value="cn.nubia.deskclock.preset/cn.nubia.deskclock.activity.AlarmAlertFullScreen"/>
+    <item value="com.tencent.mobileqq/com.tencent.av.ui.AVActivity"/>
+    <item value="com.tencent.qqmusic/.business.lockscreen.LockScreenActivity"/>
+    <item value="com.kugou.android/.app.lockscreen.LockScreenActivity"/>
+    <item value="com.tencent.qqmusic/.business.lockscreen.LockScreenActivity"/>
+    <item value="com.duomi.android/.DMMainActivity"/>
+    <item value="com.yuedong.sport/.main.ScreenActivity"/>
+    <item value="com.netease.cloudmusic/.activity.LockScreenActivity"/>
+    <item value="com.ting.mp3.android/com.baidu.music.ui.lockscreen.LockScreenActivity"/>
+    <item value="fm.xiami.main/.business.lockscreen.ui.CustomLockScreenActivity"/>
+    <item value="com.tencent.mobileqq/.activity.QQLSActivity"/>
+    <item value="com.tencent.mm/.plugin.scanner.ui.BaseScanUI"/>
+    <item value="com.android.htmlviewer"/>
+    <item value="cn.nubia.flycow"/>
+    <item value="com.android.phone/.NBMobileNetworkSettings"/>
+    <item value="cn.nubia.musicpicker.preset"/>
+    <item value="com.android.inputmethod.latin"/>
+    <item value="com.sohu.inputmethod.sogou.nubia"/>
+    <item value="cn.nubia.browser/com.android.browser.qrcode.CaptureActivity"/>
+    <item value="com.redteamobile.roaming"/>
+    <item value="cn.nubia.gallerylockscreen/.settings.SettingsActivity"/>
+    <item value="cn.nubia.smartface/.settings.SmartFaceSettingActivity"/>
+    <item value="cn.nubia.sensor/.SensorActivity$CompassCaliActivity"/>
+    <item value="cn.nubia.sensor/.CompassCaliSuccessActivity"/>
+    <item value="cn.nubia.launcher/com.android.launcher3.SimpleWallpaperActivity"/>
+    <item value="cn.nubia.launcher/com.android.launcher3.SettingWallpaperActivity"/>
+    <item value="com.android.wallpapercropper/.WallpaperCropActivity"/>
+    <item value="com.android.wallpapercropper/com.android.settingpreview.SettingWallpaperActivity"/>
+    <item value="com.jingdong.app.mall/com.jingdong.lib.zxing.client.android.CaptureActivity"/>
+    <item value="com.jingdong.app.mall/com.jd.lib.scan.lib.zxing.client.android.CaptureActivity"/>
+    <item value="com.sina.weibo/.page.SuperPageActivity"/>
+    <item value="cn.nubia.nbrouteservice/cn.nubia.turbomanagement.TurboManagementActivity"/>
+    <item value="com.android.camera/com.android.specification.SpecificationActivity"/>
+    <item value="cn.nubia.video/.player.VideoEditorActivity"/>
+    <item value="cn.nubia.launcher/com.android.launcher3.settings.LauncherLayoutChangeActivity"/>
+    <item value="cn.nubia.wlancamera"/>
+    <item value="cn.nubia.bootanimationinfo"/>
+    <item value="cn.nubia.powersaving/.ui.PowerSavingModeSettingActivity"/>
+    <item value="cn.nubia.powersaving/.ui.PowerConsumptionActivity"/>
+    <item value="cn.nubia.email/com.android.email.activity.setup.AccountSetupFinal"/>
+    <item value="com.android.stk/.StkDialogActivity"/>
+    <item value="com.yulore.framework/com.yulore.superyellowpage.activity.NewShopDetailActivity" />
+    <item value="com.tencent.peng"/>
+    <item value="com.sina.weibo/.page.NewCardListActivity"/>
+    <item value="com.qihoo360.launcher"/>
+    <item value="com.tencent.tmgp.carrot3"/>
+    <item value="tv.danmaku.bili"/>
+    <item value="com.tencent.mobileqq/.activity.richmedia.NewFlowCameraActivity"/>
+    <item value="com.tencent.mm/.plugin.voip.ui.VideoActivity"/>
+    <item value="com.lzc.sls_app.activity"/>
+    <item value="com.tencent.mm/.plugin.webview.ui.tools.OAuthUI"/>
+    <item value="com.benqu.wuta"/>
+    <item value="com.geass.hykp.bt.qike"/>
+    <item value="com.happyelements.AndroidAnimal"/>
+    <item value="com.taobao.taobao/com.taobao.runtimepermission.PermissionActivity"/>
+    <item value="com.taobao.taobao/mtopsdk.extra.antiattack.CheckCodeValidateActivity"/>
+    <item value="com.android.packageinstaller/.permission.ui.GrantPermissionsActivity"/>
+    <item value="com.taobao.taobao/com.taobao.tao.msgcenter.activity.OfficialMsgListActivity"/>
+</name-list>
+
+<!-- not need stop app -->
+<name-list name="start-white" type="white-list">
+    <item value="cn.nubia.thememanager/.ui.activity.HomeActivity"/>
+    <item value="com.android.systemui/.recents.RecentsActivity"/>
+</name-list>
+
+<!-- all apps in the "update-focus" is black-list. -->
+<name-list name="update-focus" type="black-list">
+    <item value="com.popcap.pvz2cthdwdj/com.popcap.pvz2cthdwdj.SexyAppActivity" />
+    <item value="com.popcap.pvz2wdj/com.popcap.pvz2wdj.SexyAppActivity" />
+</name-list>
+
+</multiwindow-setting>
+
